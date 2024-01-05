@@ -1,0 +1,21 @@
+export const countries = [
+    { "country": "Australia", "country_code": "AU" },
+    { "country": "Austria", "country_code": "AT" },
+    { "country": "Belgium", "country_code": "BE" },
+    { "country": "Brazil", "country_code": "BR" },
+    { "country": "Canada", "country_code": "CA" },
+    { "country": "France", "country_code": "FR" },
+    { "country": "Germany", "country_code": "DE" },
+    { "country": "India", "country_code": "IN" },
+    { "country": "Italy", "country_code": "IT" },
+    { "country": "Mexico", "country_code": "MX" },
+    { "country": "The Netherlands", "country_code": "NL" },
+    { "country": "New Zealand", "country_code": "NZ" },
+    { "country": "Poland", "country_code": "PL" },
+    { "country": "Singapore", "country_code": "SG" },
+    { "country": "South Africa", "country_code": "ZA" },
+    { "country": "Spain", "country_code": "ES" },
+    { "country": "Switzerland", "country_code": "CH" },
+    { "country": "United Kingdom", "country_code": "GB" },
+    { "country": "United States", "country_code": "US" }
+];
