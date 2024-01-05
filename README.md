@@ -1,7 +1,10 @@
 <h1 align="center">Github Jobs</h1>
 
 <div align="center">
-  Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. <br>
+  Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. 
+  
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/4ede6318-3227-4258-8277-09a47e65ec7c/deploy-status)](https://app.netlify.com/sites/github-jobs-varjonathanr/deploys)
+  <br>
 </div>
 
 <div align="center">
@@ -10,7 +13,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://legacy.devchallenges.io/solutions/2lLQusuGpa9IGpL60rF8">
       Solution
     </a>
     <span> | </span>
@@ -34,9 +37,22 @@
 
 ## Overview
 
-![Windbnb Preview](https://github.com/varJonathanR/github-jobs/blob/main/public/github-jobs_preview.png)
+![Github Jobs Preview](https://github.com/varJonathanR/github-jobs/blob/main/public/github-jobs_preview.png)
 
-This project has marked a before and after in my learning process. It was very challenging, and I learned to improve how I share state information between my components, as well as how to optimize my code to avoid repeating functions. I had a lot of fun with this project, and I am very happy that, as I progress, I depend less on external help and am able to think and create my own solutions.
+Welcome to my GitHub Jobs project, where you can discover multiple job opportunities in 18 different countries. Additionally, you can filter jobs based on Full-Time positions and explore opportunities in various states within your country of interest.
+
+Key Features:
+
+✔️ Coverage in 18 Countries: This project enables you to search for job opportunities across 18 different countries, spanning across the Americas, Europe, and Oceania.
+
+✔️ Filtering Options: You have the ability to filter jobs based on Full-Time positions. Additionally, you can explore job opportunities in specific states within your country of interest.
+
+✔️ Real-Time Updates: The project displays real job listings, allowing you to explore them and apply directly through their respective platforms.
+
+✔️ User-Friendly Interface: Designed with a user-friendly and intuitive interface, this project ensures a seamless experience for job seekers.
+
+> Note:
+> This project has limitations on search capabilities and detailed job results due to the limitations of the [Adzuna API](https://developer.adzuna.com/).
 
 ### Built With
 
@@ -63,7 +79,7 @@ $ git clone https://github.com/varJonathanR/github-jobs
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run dev
 ```
 
 ## Contact
