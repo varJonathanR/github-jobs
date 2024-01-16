@@ -2,11 +2,9 @@ import React from 'react'
 
 export default function Job({ companyName, jobName, jobType, location, postedAt }) {
     return (
-        <article className='h-114px flex justify-between cursor-pointer bg-white p-3 drop-shadow transition hover:drop-shadow-lg'>
+        <article className='min-h-114px h-auto flex justify-between cursor-pointer bg-white p-3 drop-shadow transition hover:drop-shadow-lg'>
             <section className='h-full flex gap-4 items-center'>
-                <div className="h-90px w-90px object-fit">
-                    <img src="/jobLogo.jpg" className='h-full w-full' />
-                </div>
+                <img src="/jobLogo.jpg" className='lg:h-90px lg:w-90px h-[60px] w-[60px]' />
                 <div>
                     <p className='text-sm font-bold'>{companyName}</p>
                     <h1 className='text-base lg:text-lg'>{jobName}</h1>
